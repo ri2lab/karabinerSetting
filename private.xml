@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<root>
+  <appdef>
+    <appname>WIN7</appname>
+    <equal>com.vmware.fusion</equal>
+  </appdef>
+
+  <devicevendordef>
+    <vendorname>PFU</vendorname>
+    <vendorid>0x0853</vendorid>
+  </devicevendordef>
+
+  <deviceproductdef>
+    <productname>HHKB</productname>
+    <productid>0x0100</productid>
+  </deviceproductdef>
+
+  <item><!-- HHKB １段目　「=」 -->
+    <name>MacUS Equal in Win7JIS by HHKB</name>
+    <identifier>private.equal</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::EQUAL, ModifierFlag::NONE, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　「\」 -->
+    <name>MacUS Backslash to YEN in Win7JIS by HHKB</name>
+    <identifier>private.backslash</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::NONE, KeyCode::JIS_YEN</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　「`」 -->
+    <name>MacUS Back quote in Win7JIS by HHKB</name>
+    <identifier>private.backquoteL</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::NONE, KeyCode::JIS_ATMARK, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　「`」 -->
+    <name>MacUS Back quote in Win7JIS by HHKB</name>
+    <identifier>private.backquoteR</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::NONE, KeyCode::JIS_ATMARK, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_L +「2」 -->
+    <name>MacUS Atmark in Win7JIS by HHKB</name>
+    <identifier>private.shiftL2</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_ATMARK</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_R +「2」 -->
+    <name>MacUS Atmark in Win7JIS by HHKB</name>
+    <identifier>private.shiftR2</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_ATMARK</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_L +「6」 -->
+    <name>MacUS HAT in Win7JIS by HHKB</name>
+    <identifier>private.shiftL6</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_6, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_HAT</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_R +「6」 -->
+    <name>MacUS HAT in Win7JIS by HHKB</name>
+    <identifier>private.shiftR6</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_6, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_HAT</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_L +「7」 -->
+    <name>MacUS AND in Win7JIS by HHKB</name>
+    <identifier>private.shiftL7</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_7, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::KEY_6, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_R +「7」 -->
+    <name>MacUS AND in Win7JIS by HHKB</name>
+    <identifier>private.shiftR7</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_7, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::KEY_6, ModifierFlag::SHIFT_R</autogen>
+  </item>
+  
+    <item><!-- HHKB １段目　SHIFT_L +「8」 -->
+    <name>MacUS Asterlisk in Win7JIS by HHKB</name>
+    <identifier>private.shiftL8</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_8, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_COLON, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_R +「8」 -->
+    <name>MacUS Asterlisk in Win7JIS by HHKB</name>
+    <identifier>private.shiftR8</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_8, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_COLON, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_L +「9」 -->
+    <name>MacUS Left parenthesis in Win7JIS by HHKB</name>
+    <identifier>private.shiftL9</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_9, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::KEY_8, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_R +「9」 -->
+    <name>MacUS Left parenthesis in Win7JIS by HHKB</name>
+    <identifier>private.shiftR9</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_9, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::KEY_8, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+   <item><!-- HHKB １段目　SHIFT_L +「0」 -->
+    <name>MacUS Right parenthesis in Win7JIS by HHKB</name>
+    <identifier>private.shiftL0</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_0, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::KEY_9, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_R +「0」 -->
+    <name>MacUS Right parenthesis in Win7JIS by HHKB</name>
+    <identifier>private.shiftR0</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::KEY_0, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::KEY_9, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_L +「-」 -->
+    <name>MacUS Underscore in Win7JIS by HHKB</name>
+    <identifier>private.shiftLminus</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_UNDERSCORE, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_R +「-」 -->
+    <name>MacUS Underscore in Win7JIS by HHKB</name>
+    <identifier>private.shiftRminus</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_UNDERSCORE, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_L +「=」 -->
+    <name>MacUS Plus in Win7JIS by HHKB</name>
+    <identifier>private.shiftLequal</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::EQUAL, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::SEMICOLON, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_R +「=」 -->
+    <name>MacUS Plus in Win7JIS by HHKB</name>
+    <identifier>private.shiftRequal</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::EQUAL, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::SEMICOLON, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_L +「\」 -->
+    <name>MacUS vertical bar in Win7JIS by HHKB</name>
+    <identifier>private.shiftLbackslash</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_YEN, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_R +「\」 -->
+    <name>MacUS vertical bar in Win7JIS by HHKB</name>
+    <identifier>private.shiftRbackslash</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_YEN, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_L +「`」 -->
+    <name>MacUS Tilde in Win7JIS by HHKB</name>
+    <identifier>private.shiftLbackquote</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_HAT, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB １段目　SHIFT_R +「`」 -->
+    <name>MacUS Tilde in Win7JIS by HHKB</name>
+    <identifier>private.shiftRbackquote</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_HAT, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+  <item><!-- HHKB ２段目　「[」 -->
+    <name>MacUS Left bracket in Win7JIS by HHKB</name>
+    <identifier>private.leftbracket</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::NONE, KeyCode::BRACKET_RIGHT</autogen>
+  </item>
+
+  <item><!-- HHKB ２段目　「]」 -->
+    <name>MacUS Right bracket in Win7JIS by HHKB</name>
+    <identifier>private.rightbracket</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::NONE, KeyCode::BACKSLASH</autogen>
+  </item>
+
+  <item><!-- HHKB ２段目　SHIFT_L +「[」 -->
+    <name>MacUS Left brace in Win7JIS by HHKB</name>
+    <identifier>private.shiftLleftbracket</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB ２段目　SHIFT_R +「[」 -->
+    <name>MacUS Left brace in Win7JIS by HHKB</name>
+    <identifier>private.shiftRleftbracket</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+  <item><!-- HHKB ２段目　SHIFT_L +「]」 -->
+    <name>MacUS Right brace in Win7JIS by HHKB</name>
+    <identifier>private.shiftLrightbracket</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB ２段目　SHIFT_R +「]」 -->
+    <name>MacUS Right brace in Win7JIS by HHKB</name>
+    <identifier>private.shiftRrightbracket</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::BACKSLASH, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+  <item><!-- HHKB ３段目　SHIFT_L +「;」 -->
+    <name>MacUS COLON in Win7JIS by HHKB</name>
+    <identifier>private.shiftLsemicolon</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::JIS_COLON</autogen>
+  </item>
+
+  <item><!-- HHKB ３段目　SHIFT_R +「;」 -->
+    <name>MacUS COLON in Win7JIS by HHKB</name>
+    <identifier>private.shiftRsemicolon</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::JIS_COLON</autogen>
+  </item>
+
+  <item><!-- HHKB ３段目　「'」 -->
+    <name>MacUS Single quote in Win7JIS by HHKB</name>
+    <identifier>private.singlequote</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::NONE, KeyCode::KEY_7, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB ３段目　SHIFT_L +「'」 -->
+    <name>MacUS Double quote in Win7JIS by HHKB</name>
+    <identifier>private.shiftLquote</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::KEY_2, ModifierFlag::SHIFT_L</autogen>
+  </item>
+
+  <item><!-- HHKB ３段目　SHIFT_R +「'」 -->
+    <name>MacUS Double quote in Win7JIS by HHKB</name>
+    <identifier>private.shiftRquote</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::KEY_2, ModifierFlag::SHIFT_R</autogen>
+  </item>
+
+</root>
