@@ -295,4 +295,20 @@
     <autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::KEY_2, ModifierFlag::SHIFT_R</autogen>
   </item>
 
+  <item><!-- HHKB 入力切り替え Command_L + Space -->
+    <name>MacUS Change Input Method in Win7JIS by HHKB</name>
+    <identifier>private.commandLSpace</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::BACKQUOTE, ModifierFlag::OPTION_L</autogen>
+  </item>
+
+  <item><!-- HHKB 入力切り替え Command_R + Space -->
+    <name>MacUS Change Input Method in Win7JIS by HHKB</name>
+    <identifier>private.commandRSpace</identifier>
+    <only>WIN7</only>
+    <device_only>DeviceVendor::PFU, DeviceProduct::HHKB</device_only>
+    <autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::COMMAND_R | ModifierFlag::NONE, KeyCode::BACKQUOTE, ModifierFlag::OPTION_L</autogen>
+  </item>
+
 </root>
